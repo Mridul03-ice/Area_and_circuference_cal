@@ -7,9 +7,11 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+        android:layout_width="389dp"
+        android:layout_height="738dp"
+        android:gravity="center"
         android:orientation="vertical"
+        android:paddingTop="10dp"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -18,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50px"
+            android:fontFamily="@font/aldrich"
             android:text="Area and Circumference Calculation"
             android:textAlignment="center"
             android:textColor="#673AB7"
@@ -26,16 +29,17 @@
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="200px"
+            android:background="#FFFFFF"
             android:text="Enter the radius :"
             android:textColor="#673AB7"
             android:textSize="24sp" />
 
         <EditText
             android:id="@+id/editTextNumber"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#AB7CFD"
             android:ems="10"
@@ -43,12 +47,12 @@
             android:foregroundTint="#B68CFF"
             android:gravity="center"
             android:inputType="number"
-            android:textAlignment="textStart"
+            android:textAlignment="center"
             android:textColor="#000000" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="Show"
             android:text="Show Result"
@@ -58,7 +62,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1200px"
+            android:layout_marginTop="800px"
             android:gravity="bottom|end"
             android:lineSpacingExtra="96sp"
             android:text="Developed By Mridul"
